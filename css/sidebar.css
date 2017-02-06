@@ -1,0 +1,33 @@
+@import url('https://fonts.googleapis.com/css?family=News+Cycle');
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    width: 15%;
+    background-color: #282828;
+    position: fixed;
+    height: 100%;
+    overflow: auto;
+}
+
+ul li a {
+    display: block;
+    color: #a8a8a8;
+    padding: 8px 16px;
+    text-decoration: none;
+    font-family: 'News Cycle', sans-serif;
+    vertical-align: middle;
+
+}
+
+ul li img{
+    height: 24px;
+    width: 24px;
+    float:left;
+    vertical-align: middle;
+    color: white;
+}
+a:hover:not(.active) {
+    background-color: #555555;
+    color: white;
+}
